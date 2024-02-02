@@ -1,0 +1,6 @@
+# action.yml
+name: 'Check C++ Header'
+description: 'For Cal State Fullerton CPSC courses; check a group of C++ source files to see if they have the required C++ header.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
